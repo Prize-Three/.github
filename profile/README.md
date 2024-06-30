@@ -1,12 +1,4 @@
-## Hi there 👋
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# AI와 함께하는 역할놀이 서비스
+|          [이유정](https://github.com/zlwmxkdla)           |          [서미영](https://github.com/SeoMiYoung)           |          [이유진](https://github.com/jenny7732)           |          [이정수]()           |          [홍보영](https://github.com/BoyoungH)           |
+| :------------------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
+| ![이유정의 프로필 사진](https://github.com/zlwmxkdla.png) | ![서미영의 프로필 사진](https://github.com/SeoMiYoung.png) | ![이유진의 프로필 사진](https://github.com/jenny7732.png) | ![이정수의 프로필 사진]() | ![홍보영의 프로필 사진](https://github.com/BoyoungH.png) |
