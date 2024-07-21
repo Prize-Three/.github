@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/d8cec42c-9606-422b-8161-7f97aa752394)
+
 ## 📍 프로젝트 소개
 > AI와의 음성 기반 역할 놀이 시스템 
 
