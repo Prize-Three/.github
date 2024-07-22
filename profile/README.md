@@ -58,11 +58,11 @@
      </tr>
      <tr>
        <th>이정수</th>
-       <td>개발 방법 모색</td>
+       <td>- 개발 방법 모색</td>
      </tr>
      <tr>
        <th>홍보영</th>
-       <td>개발 방법 모색</td>
+       <td>- 개발 방법 모색</td>
      </tr>
    </table>
 </details>
