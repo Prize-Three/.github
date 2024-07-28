@@ -128,3 +128,38 @@
      </tr>
    </table>
 </details>
+
+<details>
+   <summary>✏️ [2024.07.29 - 2024.08.04] week5</summary>
+   <br/>
+   <table>
+     <tr>
+       <th>이유정</th>
+       <td>
+         - eeve 모델 파인튜닝 시도<br/>
+         - 모델 정확도를 높히기 위한 데이터 증강 시도
+       </td>
+     </tr>
+     <tr>
+       <th>서미영</th>
+       <td>
+         - 쿼리스트링 방식말고 body에 담아서 json형태로 사용자의 선택 정보 전달하기 (API 연결)<br/>
+         - user의 상황 세부 설정에 따라 다른 프롬프트 연결 시도
+       </td>
+     </tr>
+     <tr>
+       <th>이정수</th>
+       <td>
+         - 보이스 클로닝 구현 방법 모색<br/>
+         - OpenVoice 사용 시도
+       </td>
+     </tr>
+     <tr>
+       <th>홍보영</th>
+       <td>
+         - 역할놀이 결과 페이지 구현 방법 모색<br/>
+         - Chat-gpt Open API를 사용하여 분석 데이터 얻어내기
+       </td>
+     </tr>
+   </table>
+</details>
