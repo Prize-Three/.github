@@ -168,3 +168,84 @@
      </tr>
    </table>
 </details>
+
+<details>
+   <summary>✏️ [2024.08.05 - 2024.08.11] week6 </summary>
+   <br/>
+   <table>
+     <tr>
+       <th>이유정</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>서미영</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>이정수</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>홍보영</th>
+       <td>
+       </td>
+     </tr>
+   </table>
+</details>
+
+<details>
+   <summary>✏️ [2024.08.??] 대면 모임 (사진 촬영) </summary>
+   <br/>
+   <table>
+     <tr>
+       <th>이유정</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>서미영</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>이정수</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>홍보영</th>
+       <td>
+       </td>
+     </tr>
+   </table>
+</details>
+
+<details>
+   <summary>✏️ [2024.08.12 - 2024.08.18] week7 </summary>
+   <br/>
+   <table>
+     <tr>
+       <th>이유정</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>서미영</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>이정수</th>
+       <td>
+       </td>
+     </tr>
+     <tr>
+       <th>홍보영</th>
+       <td>
+       </td>
+     </tr>
+   </table>
+</details>
