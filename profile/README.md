@@ -193,7 +193,7 @@
      <tr>
        <th>이정수</th>
        <td>
-          - OpenVoice와 berk를 이용한 보이스 클로닝 시도 
+          - OpenVoice와 berk를 이용한 보이스 클로닝 시도<br/>
           - 일반 TTS: Melo(OpenVoice를 개발한 개발팀과 같은 팀이며, local로 설치하여 사용할 수 있는 리눅스 기반의 오픈소스 TTS) 사용 시도<br/>
           - [영상 공모전] 피그마 담당
        </td>
@@ -209,7 +209,7 @@
 </details>
 
 <details>
-   <summary>✏️ [2024.08.??] 대면 모임 (사진 촬영) </summary>
+   <summary>✏️ [2024.08.10 - 2024.08.13] week7 </summary>
    <br/>
    <table>
      <tr>
@@ -236,7 +236,7 @@
 </details>
 
 <details>
-   <summary>✏️ [2024.08.12 - 2024.08.18] week7 </summary>
+   <summary>✏️ [2024.08.13 - 2024.08.17] week8 </summary>
    <br/>
    <table>
      <tr>
