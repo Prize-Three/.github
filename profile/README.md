@@ -24,11 +24,7 @@
 > 팀명: 상쓰리<br/>
 > 팀명 의미: 주어진 기회에 대해 모든 상을 휩쓸겠다는 열정으로 임하자!
 
-|                [이유정](https://github.com/zlwmxkdla)                |                 [서미영](https://github.com/SeoMiYoung)                  |         [이정수](https://github.com/Lee-JeongSoo)         |         [홍보영](https://github.com/BoyoungH)        |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![이유정의 프로필 사진](https://github.com/zlwmxkdla.png) | ![서미영의 프로필 사진](https://github.com/SeoMiYoung.png) | ![이정수의 프로필 사진](https://github.com/Lee-JeongSoo.png) | ![홍보영의 프로필 사진](https://github.com/BoyoungH.png) |
-
-
+![image](https://github.com/user-attachments/assets/2a6b1641-fc80-4c24-88cf-81f6578a3f48)
 
 ## ☑️ weekly 진행 기록
 <details>
