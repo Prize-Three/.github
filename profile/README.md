@@ -253,3 +253,10 @@
    </table>
 </details>
 
+## ☑️ 영상 공모전 참여
+저희는 해당 프로젝트로 동국대학교에서 진행되는 영상공모전에 참여하게되었습니다.
+
+https://github.com/user-attachments/assets/bf985856-7ed0-40f1-a82a-0381921dee49
+
+
+
