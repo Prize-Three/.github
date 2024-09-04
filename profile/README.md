@@ -1,3 +1,4 @@
+# ![header](https://capsule-render.vercel.app/api?type=waving&color=FBC01F&height=100&section=header.&fontSize=30&animation=fadeIn&fontAlignY=32&descAlignY=51&descAlign=70&fontColor=FBC01F)
 ![image](https://github.com/user-attachments/assets/d8cec42c-9606-422b-8161-7f97aa752394)
 
 ## ☑️ 프로젝트 개요
