@@ -1,6 +1,10 @@
 # ![header](https://capsule-render.vercel.app/api?type=waving&color=FBC01F&height=130&section=header.&fontSize=30&animation=fadeIn&fontAlignY=32&descAlignY=51&descAlign=70&fontColor=FBC01F)
 
-![image](https://github.com/user-attachments/assets/25357e11-c0bd-4940-8f97-4b90bc59cee1)
+
+
+# <img src="https://github.com/user-attachments/assets/25357e11-c0bd-4940-8f97-4b90bc59cee1">
+
+![image](https://github.com/user-attachments/assets/39127c52-f907-4228-97ac-51349fd7632c)
 
 ![image](https://github.com/user-attachments/assets/d8cec42c-9606-422b-8161-7f97aa752394)
 
