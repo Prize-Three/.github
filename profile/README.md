@@ -2,7 +2,7 @@
 
 
 
-# <img src="https://github.com/user-attachments/assets/25357e11-c0bd-4940-8f97-4b90bc59cee1">
+<img src="https://github.com/user-attachments/assets/25357e11-c0bd-4940-8f97-4b90bc59cee1" border="none">
 
 ![image](https://github.com/user-attachments/assets/39127c52-f907-4228-97ac-51349fd7632c)
 
