@@ -302,8 +302,8 @@ AI의 응답을 받아오는 방법에 대해 다양한 고민들을 했습니�
 
 ## ☑️ 데이터 통신
 #### ✔️ 주고받는 데이터 형식
-[주고받는 데이터의 형태(json)](https://github.com/Prize-Three/record/issues/27)
-[서버에 정보 전달 방법](https://github.com/Prize-Three/record/issues/25)
+- [주고받는 데이터의 형태(json)](https://github.com/Prize-Three/record/issues/27)
+- [서버에 정보 전달 방법](https://github.com/Prize-Three/record/issues/25)
 
 #### ✔️ 대화형 API 문서 페이지(http://localhost:8000/docs)
 <details>
