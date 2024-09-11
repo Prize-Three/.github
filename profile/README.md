@@ -268,6 +268,7 @@
 </details>
 
 ## ☑️ 피그마 시안
+![image](https://github.com/user-attachments/assets/0845c2d2-8450-4a85-b9f7-474c81a2ea42)
 
 ## ☑️ DB 구축, API 설계
 
