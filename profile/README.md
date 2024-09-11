@@ -1,12 +1,4 @@
-# ![header](https://capsule-render.vercel.app/api?type=waving&color=FBC01F&height=130&section=header.&fontSize=30&animation=fadeIn&fontAlignY=32&descAlignY=51&descAlign=70&fontColor=FBC01F)
-
-
-
 <img src="https://github.com/user-attachments/assets/25357e11-c0bd-4940-8f97-4b90bc59cee1" border="none">
-
-![image](https://github.com/user-attachments/assets/39127c52-f907-4228-97ac-51349fd7632c)
-
-![image](https://github.com/user-attachments/assets/d8cec42c-9606-422b-8161-7f97aa752394)
 
 ## ☑️ 프로젝트 개요
 통계청과 맥킨지 보고서에 따르면, 대한민국의 출산율은 지속적으로 감소하고 있지만, 자녀수가 줄어들수록 자녀 한 명에게 더 많은 투자를 하는 경향이 나타나고 있습니다. 이로 인해 키즈 산업 시장의 규모는 꾸준히 성장하고 있습니다. 
@@ -27,7 +19,6 @@
 > 2024.06.29 - 2024.08.30 : 개발 (LINC 3.0 사업단 산학교육센터에서 진행하는 동국대학교 캡스톤디자인 밸류업)
 
 
-
 ## ☑️ 팀원 소개
 > 팀명: 상쓰리<br/>
 > 팀명 의미: 주어진 기회에 대해 모든 상을 휩쓸겠다는 열정으로 임하자!
@@ -35,6 +26,19 @@
 ![image](https://github.com/user-attachments/assets/2a6b1641-fc80-4c24-88cf-81f6578a3f48)
 
 ## ☑️ 기술 스택
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)<br/>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css-modules&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFB30B?style=for-the-badge&logo=huggingface&logoColor=white)
+![LM Studio](https://img.shields.io/badge/LM_Studio-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAEbSURBVHjarJK9SgNBFIW/WZMNwcIiEJsUgq1gI1iJnY2VD2BjYeEL+Bw+gZWNVVr7NBYiFlFIZUgR3FUSdq+FG1lCNpCBU907c+43Z+6Mioh+YX8Dz8AUcAzkkrTwxvMbsA+cADfAFfBRZEhEOiLyICJbIjIvIqsiMiciCyLSFJFTEVkrPsxMzawDnAEHwDKw4u7fZrYPXAPvQM/dv/6MB+4+MLMz4BHouvtvwTezA+AeWHP3p5jZCHgBUmAzxtgzs13gDlh098GYOOecu3vq7kngDngFVoE2MFOIJwZqZqfALXDu7mMgufsTsAOcA9tAIzezVWAD6Lj7MCFHZpYCaYxxOHYVM0vMrFmulFRE5LKsclwWvwMAHrFNi0nCcgMAAAAASUVORK5CYII=)
 
 ## ☑️ 프로젝트 진행 기록
 <details>
