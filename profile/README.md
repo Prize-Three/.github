@@ -293,6 +293,7 @@ GPT-3.5-Turbo를 활용하여 결과 분석 레포트를 제공함으로써, 부
 - [코랩에서 모델 크기 관련 이슈](https://github.com/Prize-Three/record/issues/8)
 - [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 - [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
+- [Ollama구동시도](https://github.com/Prize-Three/record/issues/13)
 
 #### ✔️ LM Studio의 사용
 저희 팀은 모델을 효과적으로 테스트하고 실제 환경에서 사용하기 위해 LM Studio라는 프로그램을 이용했습니다.
@@ -320,12 +321,48 @@ LM Studio를 선택하기로 결정한 데에는 다음과 같은 이유가 있�
    - LM Studio내에서 직접 성능을 비교한 결과
       - [모델 성능 비교 in LM Studio](https://github.com/Prize-Three/record/issues/15)
 
-=> 결론적으로 EEVE를 Base Model로 선택하였습니다.
+=> 결론적으로 EEVE를 Base Model로 선택하였습니다. EEVE는 한국어 처리에 더 특화되어있고, 복잡한 지시사항을 더 잘 이해할 수 있는 모델입니다.
+
+## ☑️ 커스텀 데이터셋의 준비
+일단 저희가 모든 역할놀이 구성에 대한 데이터셋을 다 구성할 수는 없었기에 2가지 상황을 대표로 정하고 커스텀 데이터셋을 구성했습니다.
+(상황1) 사용자-의사, AI-환자
+(상황2) 사용자-요리사, AI-손님
+
+#### ✔️ [STEP1] 초반 데이터셋의 준비
+처음에는 (상황1)에 대한 데이터셋만 준비한 상황이었습니다.
+- [Hugging Face에 올린 초반 데이터셋](https://huggingface.co/datasets/sangthree/hospital_1)
+
+#### ✔️ [STEP2] 데이터셋 증강
+- [증강 관련 이슈](https://github.com/Prize-Three/record/issues/18)
+
+#### ✔️ [STEP3] 데이터셋 구조 변화
+- [Hugging Face에 올린 변화된 데이터셋](https://huggingface.co/datasets/sangthree/new_hospital_situation)
+  
+저희팀이 처음 프로젝트를 시작했을 때는 META와 LLAMA3를 기반으로 파인튜닝을 진행했었습니다. 해당 모델들은 모두 입력(input)을 받아, 응답(response)을 생성하는 방식으로 작동하기 때문에 기존에 저희가 [STEP1]에서 준비했던 커스텀 데이터셋의 형태가 적합했습니다. 
+
+하지만, 프로젝트를 진행하면서 성능을 향상시키기 위해 베이스 모델을 EEVE로 변경하였습니다. 이런 변경에 맞춰서 자연스럽게 데이터셋의 구조도 변경해야했었습니다. 파인튜닝을 위해 기존의 (’input’, ‘response’에서 ‘instruction’,’output’,’input’)으로 재구축했습니다. EEVE 모델의 데이터셋 구조가 instruction , output, input으로 이루어져있기 때문에 파인튜닝을 위한 필수 과정입니다. instruction 필드에는 대화에서 필요한 질문을 명확히 제시하고, output필드에는 모델이 생성해야 할 응답을 포함했습니다. input필드는 instruction만으로도 충분한 정보를 제공할 수 있다고 판단하여 비워놓았습니다. input을 채워두면 특정 입력 패턴에 과도하게 의존할 수 있습니다. 역할놀이 대화 챗봇의 경우 다양한 상황에 유연하게 대응할 필요가 있다고 판단하여 input을 비우는게 성능상에서 더 효과적일것이라고 생각했습니다.
+
+#### ✔️ [STEP4] 최종 데이터셋
+- [Hugging Face에 올린 최종 데이터셋](https://huggingface.co/datasets/sangthree/FinalDatasets)
+  
+##### (1) 장난감 세트에 맞춤 커스텀 데이터 셋 추가
+예를 들어 아이들이 사용하는 장난감에 파란색과 빨간색 밴드가 있다고 합시다.
+![image](https://github.com/user-attachments/assets/e6ddc0a7-2879-4fa6-92eb-e7d138a903ed)
+이렇게 예상되는 질문과 응답에 대한 커스텀 데이터셋을 추가했습니다. 
+
+##### (2) (상황2: 요리놀이)에 대한 데이터셋 추가
+기존에는 (상황1: 병원놀이)에 대한 데이터셋만 있었는데 추가했습니다.
+![image](https://github.com/user-attachments/assets/04ce54be-e6e2-4488-ade7-a9effe9b81a8)
+
+
+
+
+
 
 ## ☑️ 모델 학습 방식
 
 
-## ☑️ 커스텀 데이터셋의 준비
+
 
 
 
