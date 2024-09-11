@@ -300,6 +300,10 @@ AI의 응답을 받아오는 방법에 대해 다양한 고민들을 했습니�
 - [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 - [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
 
+## ☑️ API 연결
+- [주고받는 데이터 형식](https://github.com/Prize-Three/record/issues/27)
+
+
 ## ☑️ 수상(1) 
 > SK텔레콤과 동국대학교가 공동으로 주관한 2024년 1학기 「기업사회맞춤형캡스톤디자인」에서 교과우수상 수상
 
