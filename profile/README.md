@@ -300,15 +300,21 @@ AI의 응답을 받아오는 방법에 대해 다양한 고민들을 했습니�
 - [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 - [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
 
-## ☑️ 서버와의 통신
+## ☑️ 데이터 통신
 #### ✔️ 주고받는 데이터 형식
-- [관련 이슈](https://github.com/Prize-Three/record/issues/27)
+[주고받는 데이터의 형태(json)](https://github.com/Prize-Three/record/issues/27)
+[서버에 정보 전달 방법](https://github.com/Prize-Three/record/issues/25)
 
-#### ✔️ API 연결(http://localhost:8000/docs)
+#### ✔️ 대화형 API 문서 페이지(http://localhost:8000/docs)
 <details>
-   <summary>dd</summary>
-      
+   <summary>[확인]</summary>
+   <img src="https://github.com/user-attachments/assets/d847a9fd-d8df-4cbf-9794-b60caedaa4c6"/>
 </details>
+
+#### ✔️ 연결 방식
+> 참고로 Fetch API는 클라이언트측에서 제공하는 네트워크 요청을 보내기 위한 인터페이스입니다. 그리고 RESTful API는 서버 측에서 구현된 API의 설계 원칙입니다.
+
+React코드에서는 Fetch API를 사용하여 RESTful API와 통신하고 있습니다. Fetch API는 RESTful API를 호출하기 위한 도구로 사용되고 있습니다. 
 
 ## ☑️ 수상(1) 
 > SK텔레콤과 동국대학교가 공동으로 주관한 2024년 1학기 「기업사회맞춤형캡스톤디자인」에서 교과우수상 수상
