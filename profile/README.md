@@ -291,7 +291,6 @@ GPT-3.5-Turbo를 활용하여 결과 분석 레포트를 제공함으로써, 부
 - [Hugging Face Transformers방식](https://github.com/Prize-Three/record/issues/4)
 - [꼭 LM Studio를 사용해야만 할까?](https://github.com/Prize-Three/record/issues/5)
 - [코랩에서 모델 크기 관련 이슈](https://github.com/Prize-Three/record/issues/8)
-- [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 - [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
 - [Ollama구동시도](https://github.com/Prize-Three/record/issues/13)
 
@@ -355,23 +354,23 @@ LM Studio를 선택하기로 결정한 데에는 다음과 같은 이유가 있�
 ![image](https://github.com/user-attachments/assets/04ce54be-e6e2-4488-ade7-a9effe9b81a8)
 
 
+## ☑️ 모델 학습 및 프롬프트 조정
+> 모델의 학습 코드는 다음 레포지토리에 모아져있습니다.
+> - [model 레포지토리 이동](https://github.com/Prize-Three/model)
 
+> 프롬프트 명령어 설정
+> - [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 
+#### ✔️ 간단 설명
+##### (1) LoRA방식의 파인튜닝
+저희는 LoRA(Low-Rank Adaption) 방식으로 모델을 파인튜닝했습니다. 이 방법은 전체 모델의 파라미터를 수정하지 않고 일부만 업데이트하여 효율적으로 학습할 수 있게 해줍니다. 이를 통해 적은 자원으로도 빠르게 원하는 성능을 얻을 수 있습니다.
 
+##### (2) 상황에 따른 프롬프트 
+실제 서비스 구현 단계에서는 LM Studio를 활용하여 모델의 응답을 생성했습니다. 이 과정에서 저희는 프롬프트 엔지니어링 기법을 적용했습니다. 즉, 상황에 따라 다양한 프롬프트를 동적으로 구성하여 모델에게 전달함으로써, 원하는 역할과 맥락에 맞는 응답을 유도했습니다.
 
-## ☑️ 모델 학습 방식
+이러한 접근 방식을 통해, 저희는 효율적으로 학습된 모델을 기반으로 하면서도, 프롬프트 조정을 통해 다양한 상황과 역할에 유연하게 대응할 수 있는 시스템을 구축했습니다.
 
-
-
-
-
-
-
-
-
-
-
-## ☑️ 데이터 통신
+## ☑️ 데이터 통신(서버⇔프론트)
 #### ✔️ 주고받는 데이터 형식
 - [주고받는 데이터의 형태(json)](https://github.com/Prize-Three/record/issues/27)
 - [서버에 정보 전달 방법](https://github.com/Prize-Three/record/issues/25)
