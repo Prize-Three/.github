@@ -270,9 +270,14 @@
 ## ☑️ 피그마 시안
 ![image](https://github.com/user-attachments/assets/0845c2d2-8450-4a85-b9f7-474c81a2ea42)
 
-## ☑️ DB 구축, API 설계
+## ☑️ ERD
+![image](https://github.com/user-attachments/assets/a16fdb9c-84f6-49b5-8c1d-9989ba5a8cd4)
+참고로, 해당 ERD에는 '사용자'에 대한 정보가 저장되도록 했지만, 실제 테스트 웹페이지에서는 사용자를 임의로 지정하고 진행했습니다.
 
-## ☑️ 각 페이지 소개
+## ☑️ 시연 영상
+https://github.com/user-attachments/assets/bf1a59a5-042b-49e0-96ab-69055721608b
+
+
 
 ## ☑️ 모델 학습 방법
 
