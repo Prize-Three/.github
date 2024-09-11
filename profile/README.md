@@ -284,21 +284,55 @@ STT(Web Speech API)와 TTS(Google TTS API) 기술을 활용해 음성 기반 역
 #### ✔️ 역할놀이 결과 분석 레포트 제공
 GPT-3.5-Turbo를 활용하여 결과 분석 레포트를 제공함으로써, 부모님들이 역할놀이에 직접 참여하지 않고도, 아이들의 역할놀이를 효과적으로 파악할 수 있게 했습니다.
 
-
-## ☑️ 모델 학습 방식
-
-## ☑️ 커스텀 데이터셋의 준비
-
 ## ☑️ AI 응답 환경 구축
-AI의 응답을 받아오는 방법에 대해 다양한 고민들을 했습니다. 
+#### ✔️ AI의 응답을 받아오는 방법에 대한 다양한 고민들
 다음 링크에 포함된 글들을 참고해주세요.
 - [LM Studio의 사용 + ngrok, fastAPI](https://github.com/Prize-Three/record/issues/1)
 - [Hugging Face Transformers방식](https://github.com/Prize-Three/record/issues/4)
 - [꼭 LM Studio를 사용해야만 할까?](https://github.com/Prize-Three/record/issues/5)
 - [코랩에서 모델 크기 관련 이슈](https://github.com/Prize-Three/record/issues/8)
-- [모델 성능 비교 in LM Studio](https://github.com/Prize-Three/record/issues/15)
 - [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
 - [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
+
+#### ✔️ LM Studio의 사용
+저희 팀은 모델을 효과적으로 테스트하고 실제 환경에서 사용하기 위해 LM Studio라는 프로그램을 이용했습니다.
+LM Studio를 선택하기로 결정한 데에는 다음과 같은 이유가 있습니다.
+1. 제한적인 GPU자원
+   - 대규모 언어 모델을 실행하려면 보통 강력한 GPU가 필요한데 저희에게는 그런 고성능 장비가 충분하지 않았습니다. 그래서 LM Studio라는 프로그램을 사용하면, 일반 컴퓨터에서 그나마 대형 언어 모델을 비교적 쉽게 돌릴 수 있을 것이라는 생각에 사용하게 되었습니다.
+2. 짧은 프로젝트 기한
+   - 저희는 개발 기간이 기획 기간에 비해 상대적으로 짧았기 때문에 시간이 없었습니다. 그래서 모델의 성능을 빠르고 효율적으로 테스트할 수 있는 환경이 필요했습니다. LM Studio는 사용자 친화적인 인터페이스를 제공하기 때문에 크게 복잡한 설정 없이도 모델을 쉽게 로드하고 성능을 테스트할 수 있습니다.
+3. 저장 공간 절약
+   - 모델을 로컬에 직접 다운로드 하지 않아도 된다는 점이 큰 장점이었습니다. 보통 대형 언어 모델은 용량이 매우 크기 때문에 이 점은 큰 장점으로 다가왔습니다.
+
+## ☑️ Base Model 선택
+저희팀은 프로젝트를 시작하면서 어떤 대형 언어 모델(LLM)을 기반으로 파인튜닝을 진행할지 많은 고민을 했습니다. 
+
+많은 모델들을 비교해보기에는 현실적인 제약이 있었습니다. 바로 GPU 자원의 한계였는데요, 이런 대규모 언어 모델들을 훈련시키고 테스트하려면 엄청난 컴퓨팅 파워가 필요한데, GPU가 없는 상태에서는 학습에 제한이 있었습니다. 한번 테스트 하는데 많은 시간과 비용이 소모되기 때문에 다양한 모델을 테스트 해보는 건 현실적으로 불가능했습니다. 그래서 어쩔 수 없이 선택과 집중을 해야했고, 저희는 META, LLAMA3, EEVE 이 세 모델을 우선적으로 선택했습니다.
+
+#### ✔️ LM Studio에서 직접 실행시켜서 성능 비교
+- 세 모델을 gguf형식으로 변환한 모델을 비교했습니다.
+   - Q. 왜 gguf형식으로 변환하나요?
+      - A. LM Studio는 gguf형식(모델을 압축해서 더 효율적으로 사용할 수 있게 만든 파일 형식)의 모델만 인식가능하기 때문입니다.
+   - 상쓰리 HuggingFace계정에 올려놓은 GGUF 모델들
+      - (1) [라마3 기반](https://huggingface.co/sangthree/0707_gguf)
+      - (2) [META 기반](https://huggingface.co/sangthree/meta_0706_gguf)
+      - (3) [EEVE 기반](https://huggingface.co/sangthree/final_eeve_gguf)
+   - LM Studio내에서 직접 성능을 비교한 결과
+      - [모델 성능 비교 in LM Studio](https://github.com/Prize-Three/record/issues/15)
+
+=> 결론적으로 EEVE를 Base Model로 선택하였습니다.
+
+## ☑️ 모델 학습 방식
+
+
+## ☑️ 커스텀 데이터셋의 준비
+
+
+
+
+
+
+
 
 ## ☑️ 데이터 통신
 #### ✔️ 주고받는 데이터 형식
