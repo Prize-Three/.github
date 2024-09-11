@@ -277,9 +277,18 @@
 ## ☑️ 시연 영상
 https://github.com/user-attachments/assets/bf1a59a5-042b-49e0-96ab-69055721608b
 
+## ☑️ 모델 학습 방식
 
-
-## ☑️ 모델 학습 방법
+## ☑️ AI 응답 환경 구축
+AI의 응답을 받아오는 방법에 대해 다양한 고민들을 했습니다. 
+다음 링크에 포함된 글들을 참고해주세요.
+- [LM Studio의 사용 + ngrok, fastAPI](https://github.com/Prize-Three/record/issues/1)
+- [Hugging Face Transformers방식](https://github.com/Prize-Three/record/issues/4)
+- [꼭 LM Studio를 사용해야만 할까?](https://github.com/Prize-Three/record/issues/5)
+- [코랩에서 모델 크기 관련 이슈](https://github.com/Prize-Three/record/issues/8)
+- [모델 성능 비교 in LM Studio](https://github.com/Prize-Three/record/issues/15)
+- [프롬프트에 따른 답변 변화 확인](https://github.com/Prize-Three/record/issues/16)
+- [모델 응답이 혼자서 시나리오를 짜는 걸 막기](https://github.com/Prize-Three/record/issues/23)
 
 ## ☑️ 수상(1) 
 > SK텔레콤과 동국대학교가 공동으로 주관한 2024년 1학기 「기업사회맞춤형캡스톤디자인」에서 교과우수상 수상
