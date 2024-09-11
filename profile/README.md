@@ -24,6 +24,22 @@
 
 ![image](https://github.com/user-attachments/assets/2a6b1641-fc80-4c24-88cf-81f6578a3f48)
 
+## ☑️ 목차
+- [기술 스택](#️-기술-스택)
+- [프로젝트 진행 기록](#️-프로젝트-진행-기록)
+- [피그마 시안](#️-피그마-시안)
+- [ERD](#️-erd)
+- [시연 영상](#️-시연-영상)
+- [AI 응답 환경 구축](#️-ai-응답-환경-구축)
+- [Base Model 선택](#️-base-model-선택)
+- [커스텀 데이터셋의 준비](#️-커스텀-데이터셋의-준비)
+- [모델 학습 및 프롬프트 조정](#️-모델-학습-및-프롬프트-조정)
+- [데이터 통신(서버⇔프론트)](#️-데이터-통신서버프론트)
+- [서비스의 이해 & 추후 발전 가능성](#️-서비스의-이해--추후-발전-가능성)
+- [아쉬웠던 점](#️-아쉬웠던-점)
+- [수상(1)](#️-수상1)
+- [수상(2)](#️-수상2)
+  
 ## ☑️ 기술 스택
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
