@@ -350,7 +350,8 @@ LM Studio를 선택하기로 결정한 데에는 다음과 같은 이유가 있�
 
 #### ✔️ [STEP2] 데이터셋 증강
 - [증강 관련 이슈](https://github.com/Prize-Three/record/issues/18)
-
+- [데이터 증강 방법 및 BERT Score를 통한 성능 측정](https://midnight-menu-31c.notion.site/3027bebfc1464f268e80cf7e41e48150)
+  
 #### ✔️ [STEP3] 데이터셋 구조 변화
 - [Hugging Face에 올린 변화된 데이터셋](https://huggingface.co/datasets/sangthree/new_hospital_situation)
   
